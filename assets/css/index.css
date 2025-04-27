@@ -54,6 +54,7 @@ h1 {
   background: #fff;
   animation-name: identifier;
   animation-duration: 0.7s;
+  cursor:pointer;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
   will-change: transform, opacity;
