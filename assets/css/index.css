@@ -127,7 +127,6 @@ img {
 /* Image default state */
 .row .col .card .image-container img {
   cursor: pointer;
-  transform: scale(1); 
 }
 
 @keyframes identifier {
