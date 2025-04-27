@@ -38,6 +38,7 @@ h1 {
   align-items: center;
   justify-content: center;
   margin: 5px;
+  cursor:pointer;
 }
 
 .row .col .card {
@@ -54,7 +55,6 @@ h1 {
   background: #fff;
   animation-name: identifier;
   animation-duration: 0.7s;
-  cursor:pointer;
   animation-timing-function: ease-in-out;
   animation-fill-mode: backwards;
   will-change: transform, opacity;
@@ -62,7 +62,9 @@ h1 {
   position: relative; /* Positioning context for overlay */
   overflow: hidden; /* Prevent overflow */
 }
-
+.row .col .card:hover{
+  transform: translateZ(10px);
+}
 /* Staggered delay for each card */
 .row .col:nth-child(1) .card {
   animation-delay: 0.2s;
