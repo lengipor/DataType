@@ -121,7 +121,7 @@ img {
 }
 
 .row .col .card:hover .image-container img {
-  animation: bounce .5s ease-in 1 backwards; /* Up-and-down motion */
+  animation: bounce .5s ease-in 1 forwards; /* Up-and-down motion */
 }
 
 /* Image default state */
